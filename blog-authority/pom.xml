@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.nbchen</groupId>
+    <artifactId>blog-authority</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>blog-tools</module>
+        <module>blog-parents</module>
+        <module>blog-apps</module>
+        <module>blog-tools/blog-tools-j2cache</module>
+    </modules>
+    <name>${project.artifactId}</name>
+    <description>管理jar版本和仓库</description>
+    <packaging>pom</packaging>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://www.opensource.org/licenses/mit-license.php</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+</project>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo-jwt" />
+        <module name="demo-swagger2" />
+        <module name="demo-blog-tools-log" />
+        <module name="demo-antiSamy" />
+        <module name="demo-blog-tools-jwt" />
+        <module name="demo-argumentResolver" />
+        <module name="demo-logback" />
+        <module name="demo-hibernate-validator" />
+        <module name="demo-exceptionHandler" />
+        <module name="demo-blog-tools-swagger2" />
+        <module name="demo-springevent" />
+        <module name="demo-dozer" />
+        <module name="demo-blog-tools-user" />
+        <module name="demo-blog-tools-xss" />
+        <module name="demo-logback-springboot" />
+        <module name="demo-j2cache" />
+        <module name="demo-knife4j" />
+        <module name="demo-blog-tools-validator" />
+        <module name="demo-blog-tools-dozer" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo-antiSamy" options="-parameters" />
+      <module name="demo-argumentResolver" options="-parameters" />
+      <module name="demo-blog-tools-dozer" options="-parameters" />
+      <module name="demo-blog-tools-jwt" options="-parameters" />
+      <module name="demo-blog-tools-log" options="-parameters" />
+      <module name="demo-blog-tools-swagger2" options="-parameters" />
+      <module name="demo-blog-tools-user" options="-parameters" />
+      <module name="demo-blog-tools-validator" options="-parameters" />
+      <module name="demo-blog-tools-xss" options="-parameters" />
+      <module name="demo-dozer" options="-parameters" />
+      <module name="demo-exceptionHandler" options="-parameters" />
+      <module name="demo-hibernate-validator" options="-parameters" />
+      <module name="demo-j2cache" options="-parameters" />
+      <module name="demo-knife4j" options="-parameters" />
+      <module name="demo-logback-springboot" options="-parameters" />
+      <module name="demo-springevent" options="-parameters" />
+      <module name="demo-swagger2" options="-parameters" />
+    </option>
+  </component>
+</project>
